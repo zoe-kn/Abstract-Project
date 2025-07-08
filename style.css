@@ -113,61 +113,27 @@ header {
     border-left: 1px solid #ccc;
     transition: background 0.3s;
 }
-.branches, .manage, .authenticate {
+.section-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px 400px;
+    padding: 60px 10px;
+}
+.box {
     display: flex;
     align-items: center;
+    gap: 20px;
     max-width: 500px;
-    margin-top: 50px;
-    margin-left: 250px;
 }
-.img-branches, .img-manage, .img-authenticate {
-    width: 25%;
+.box img {
+    max-width: 150px;
+    height: auto;
     margin-right: 20px;
-    margin-top: 30px;
-}
-.text-branches, .text-manage, .text-authenticate {
-    display: block;
-    text-align: left;
-}
-.text.branches h3, .text-manage h3, .text-authenticate h3 {
-    margin: 0px;
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-.text-branches p, .text-manage p, .text-authenticate p {
-    margin: 8px 0;
-}
-
-.manage-your-account, .manage-billing, .abstract-support {
-    display: flex;
-    align-items: center;
-    max-width: 500px;
-    margin-top: 50px;
-    margin-right: 250px;
-
-}
-.img-manage-your-account, .img-manage-billing, .img-abstract {
-    width: 25%;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-.text-manage-your-account, .text-manage-billing, .text-abstract {
-    display: block;
-    text-align: left;
-}
-.text-manage-your-account h3, .text-manage-billing h3, .text-abstract h3 {
-    margin: 0;
-    font-size: 1.1rem;
-    font-weight: bold;
-}
-.text-manage-your-account p, .text-manage-billing p, .text-abstract p {
-    margin: 8px 0;
-}
-.block-1, .block-2, .block-3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
 .middle {
     margin-bottom: 100px;
