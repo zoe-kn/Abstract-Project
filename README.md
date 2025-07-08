@@ -21,7 +21,8 @@ This project replicates the main landing page of [Abstract](https://www.abstract
 
 ## 📸 Screenshot
 
-[127 0 0 1_5500_abstract html](https://github.com/user-attachments/assets/85e0691f-721b-42dc-b8a6-b8b02371e44d)
+![127 0 0 1_5500_abstract html (1)](https://github.com/user-attachments/assets/f279d0eb-92ab-4891-b6ab-00b61e0afae2)
+
 
 
 ## 🚀 Getting Started
